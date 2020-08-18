@@ -15,6 +15,9 @@
 		18164AE424E57E8500AEC2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18164AE224E57E8500AEC2BE /* LaunchScreen.storyboard */; };
 		18164AEF24E57E8600AEC2BE /* AgendaProgrammaticallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18164AEE24E57E8600AEC2BE /* AgendaProgrammaticallyTests.swift */; };
 		18164AFA24E57E8600AEC2BE /* AgendaProgrammaticallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18164AF924E57E8600AEC2BE /* AgendaProgrammaticallyUITests.swift */; };
+		18164B0824E5801400AEC2BE /* TimeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18164B0724E5801400AEC2BE /* TimeTableCell.swift */; };
+		18164B0A24E58F6B00AEC2BE /* DateCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18164B0924E58F6B00AEC2BE /* DateCollectionCell.swift */; };
+		18872FEC24E6930D0051C355 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18872FEB24E6930D0051C355 /* Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		18164AF524E57E8600AEC2BE /* AgendaProgrammaticallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaProgrammaticallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18164AF924E57E8600AEC2BE /* AgendaProgrammaticallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaProgrammaticallyUITests.swift; sourceTree = "<group>"; };
 		18164AFB24E57E8600AEC2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18164B0724E5801400AEC2BE /* TimeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableCell.swift; sourceTree = "<group>"; };
+		18164B0924E58F6B00AEC2BE /* DateCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionCell.swift; sourceTree = "<group>"; };
+		18872FEB24E6930D0051C355 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				18164AD724E57E8200AEC2BE /* AppDelegate.swift */,
 				18164AD924E57E8200AEC2BE /* SceneDelegate.swift */,
 				18164ADB24E57E8200AEC2BE /* ViewController.swift */,
+				18164B0724E5801400AEC2BE /* TimeTableCell.swift */,
+				18872FEB24E6930D0051C355 /* Time.swift */,
+				18164B0924E58F6B00AEC2BE /* DateCollectionCell.swift */,
 				18164ADD24E57E8200AEC2BE /* Main.storyboard */,
 				18164AE024E57E8500AEC2BE /* Assets.xcassets */,
 				18164AE224E57E8500AEC2BE /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18872FEC24E6930D0051C355 /* Time.swift in Sources */,
+				18164B0A24E58F6B00AEC2BE /* DateCollectionCell.swift in Sources */,
 				18164ADC24E57E8200AEC2BE /* ViewController.swift in Sources */,
+				18164B0824E5801400AEC2BE /* TimeTableCell.swift in Sources */,
 				18164AD824E57E8200AEC2BE /* AppDelegate.swift in Sources */,
 				18164ADA24E57E8200AEC2BE /* SceneDelegate.swift in Sources */,
 			);
